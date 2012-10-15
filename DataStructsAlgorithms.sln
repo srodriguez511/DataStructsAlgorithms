@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "HashTable\HashTable.csproj", "{3230D32F-839A-4942-B1A0-A9370F5D907B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{E126B09E-AF7E-440F-A1AA-377901081BA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{3230D32F-839A-4942-B1A0-A9370F5D907B}.Debug|x86.Build.0 = Debug|x86
 		{3230D32F-839A-4942-B1A0-A9370F5D907B}.Release|x86.ActiveCfg = Release|x86
 		{3230D32F-839A-4942-B1A0-A9370F5D907B}.Release|x86.Build.0 = Release|x86
+		{E126B09E-AF7E-440F-A1AA-377901081BA5}.Debug|x86.ActiveCfg = Debug|x86
+		{E126B09E-AF7E-440F-A1AA-377901081BA5}.Debug|x86.Build.0 = Debug|x86
+		{E126B09E-AF7E-440F-A1AA-377901081BA5}.Release|x86.ActiveCfg = Release|x86
+		{E126B09E-AF7E-440F-A1AA-377901081BA5}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
