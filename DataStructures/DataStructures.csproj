@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3230D32F-839A-4942-B1A0-A9370F5D907B}</ProjectGuid>
+    <ProjectGuid>{6FBEE0B8-ED54-420B-B688-E2519BAB3256}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HashTable</RootNamespace>
-    <AssemblyName>HashTable</AssemblyName>
+    <RootNamespace>DataStructures</RootNamespace>
+    <AssemblyName>DataStructures</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HashTable.cs" />
+    <Compile Include="Interfaces\IStack.cs" />
+    <Compile Include="MyLinkedList.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="StackLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

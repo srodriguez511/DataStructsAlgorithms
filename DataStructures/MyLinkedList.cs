@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LinkList
 {
-    public class LinkedList<T> where T : IComparable
+    public sealed class MyLinkedList<T> where T : IComparable
     {
         /// <summary>
         /// Head reference, start of the list
@@ -17,7 +17,7 @@ namespace LinkList
         /// </summary>
         public int Count { get; private set; }
 
-        public LinkedList()
+        public MyLinkedList()
         {
             head = null;
         }
