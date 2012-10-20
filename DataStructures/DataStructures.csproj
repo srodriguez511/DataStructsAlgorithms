@@ -47,6 +47,7 @@
     <Compile Include="Interfaces\IStack.cs" />
     <Compile Include="MyLinkedList.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="StackArray.cs" />
     <Compile Include="StackLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

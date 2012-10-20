@@ -15,6 +15,7 @@ namespace DataStructures
             var ht = new HashTable<int, int>();
             var ll = new MyLinkedList<int>();
             var stackLL = new StackLL<int>();
+            var stackArr = new StackArray<int>();
         }
     }
 }
