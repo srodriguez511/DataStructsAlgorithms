@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HashTable.cs" />
+    <Compile Include="Interfaces\IQueue.cs" />
     <Compile Include="Interfaces\IStack.cs" />
     <Compile Include="MyLinkedList.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="QueueArr.cs" />
     <Compile Include="StackArray.cs" />
     <Compile Include="StackLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
