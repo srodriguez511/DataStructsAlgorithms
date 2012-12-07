@@ -196,7 +196,7 @@ namespace HashTable
             /// </summary>
             internal V Value { get; set; }
 
-            public HashTableEntry(K key, V value)
+            internal HashTableEntry(K key, V value)
             {
                 Key = key;
                 Value = value;
